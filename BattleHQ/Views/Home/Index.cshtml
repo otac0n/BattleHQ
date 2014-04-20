@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<div class="jumbotron">
+    <h1>BattleHQ</h1>
+    <p class="lead">Pit your code against challengers, compete in tournaments, and sieze your place on the ladder.</p>
+    <p><a href="@Url.Action("Index", "Help", new { area = "" })" class="btn btn-primary btn-large">Learn more &raquo;</a></p>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <h2>Getting started</h2>
+        <p>Write your AI in any language you choose.  Connect using our @Html.ActionLink("API", "Index", "Help", new { area = "" }, null) to compete.</p>
+    </div>
+</div>
