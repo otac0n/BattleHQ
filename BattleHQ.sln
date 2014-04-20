@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9A57B5
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleHQ.Chess", "BattleHQ.Chess\BattleHQ.Chess.csproj", "{7B68FB6C-AF28-4FCA-9E25-4200494D7D37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,10 @@ Global
 		{52C465F5-7971-4990-B0DB-28DB31E7C5FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C465F5-7971-4990-B0DB-28DB31E7C5FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C465F5-7971-4990-B0DB-28DB31E7C5FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B68FB6C-AF28-4FCA-9E25-4200494D7D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B68FB6C-AF28-4FCA-9E25-4200494D7D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B68FB6C-AF28-4FCA-9E25-4200494D7D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B68FB6C-AF28-4FCA-9E25-4200494D7D37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
