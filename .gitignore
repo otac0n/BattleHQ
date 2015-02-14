@@ -6,6 +6,7 @@
 *.orig
 
 # Ignore all Visual Studio generated files.
+*.sln.ide/
 *.suo
 *.user
 *.ncb
